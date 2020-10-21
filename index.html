@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylee.css">
+	<title>Aviso ℙℝ𝕆𝕃𝕀𝕍𝔼</title>
+	<style>
+		body
+		{
+			margin: 0px;
+			background-color: black;
+		}
+		* {
+		  box-sizing: border-box;
+		}
+		body {
+		  font-family: "Open Sans";
+		  line-height: 1.618em;
+		}
+		.wrapper {
+		  max-width: 65rem;
+		  width: 100%;
+		  margin: 2rem auto;
+		  padding: 5rem;
+		  text-align: center;
+		  background: #fff;
+		  border: 0.5rem solid #34495e;
+		}
+		hr {
+		  border: 0;
+		  border-bottom: 0.0625rem solid #bbb;
+		  margin: 3rem 0;
+		}
+		button {
+		  font-size: 2em;
+		  background: #ff3400;
+		  color: #fff;
+		  border: 0.25rem solid #ff3400;
+		  padding: 0.85em 0.75em;
+		  margin: 1rem;
+		  position: relative;
+		  z-index: 1;
+		  overflow: hidden;
+		}
+		button:hover {
+		  color: #ff3400;
+		}
+		button::after {
+		  content: "";
+		  background: #ecf0f1;
+		  position: absolute;
+		  z-index: -1;
+		  padding: 0.85em 0.75em;
+		  display: block;
+		}
+		button[class^="slide"]::after {
+		  transition: all 0.35s;
+		}
+		button[class^="slide"]:hover::after {
+		  left: 0;
+		  right: 0;
+		  top: 0;
+		  bottom: 0;
+		  transition: all 0.35s;
+		}
+		button.slide_from_left::after {
+		  top: 0;
+		  bottom: 0;
+		  left: -100%;
+		  right: 100%;
+		}
+		button.slide_from_right::after {
+		  top: 0;
+		  bottom: 0;
+		  left: 100%;
+		  right: -100%;
+		}
+		button.slide_from_top::after {
+		  left: 0;
+		  right: 0;
+		  top: -100%;
+		  bottom: 100%;
+		}
+		button.slide_from_bottom::after {
+		  left: 0;
+		  right: 0;
+		  top: 100%;
+		  bottom: -100%;
+		}
+		button[class^="grow"]::after {
+		  transition: all 0.3s ease;
+		}
+		button[class^="grow"]:hover::after {
+		  transition: all 0.3s ease-out;
+		}
+		button.grow_box::after {
+		  left: 0;
+		  right: 0;
+		  top: 0;
+		  bottom: 0;
+		  transform: scale(0, 0);
+		}
+		button.grow_box:hover::after {
+		  transform: scale(1, 1);
+		}
+		button.grow_ellipse::after {
+		  border-radius: 50%;
+		  left: -50%;
+		  right: -50%;
+		  top: -150%;
+		  bottom: -150%;
+		  line-height: 8.34em;
+		  transform: scale(0, 0);
+		}
+		button.grow_ellipse:hover::after {
+		  transform: scale(1, 1);
+		}
+		button.grow_skew_forward::after {
+		  left: -20%;
+		  right: -20%;
+		  top: 0;
+		  bottom: 0;
+		  transform: skewX(-45deg) scale(0, 1);
+		}
+		button.grow_skew_forward:hover::after {
+		  transform: skewX(-45deg) scale(1, 1);
+		}
+		button.grow_skew_backward::after {
+		  left: -20%;
+		  right: -20%;
+		  top: 0;
+		  bottom: 0;
+		  transform: skewX(45deg) scale(0, 1);
+		}
+		button.grow_skew_backward:hover::after {
+		  transform: skewX(45deg) scale(1, 1);
+		}
+		button.grow_spin::after {
+		  left: 0;
+		  right: 0;
+		  top: 0;
+		  bottom: 0;
+		  transform: scale(0, 0) rotate(-180deg);
+		}
+		button.grow_spin:hover::after {
+		  transform: scale(1, 1) rotate(0deg);
+		}
+	</style>
+</head>
+<body>
+		<div class="container-top305">
+			<div class="container-logo-inf">
+				<div class="opcao-top05" id="log">ℙℝ𝕆𝕃𝕀𝕍𝔼</div>
+			</div>
+
+			<div class="container-nome-bd">
+				<a href="#" class="opcao-nome-bd" id="link-open"><div>Aviso!</div></a> 
+			</div>
+		</div>
+
+		<div class="container-aviso">
+			<p><span>AVISO IMPORTANTE!<br></span></p>
+			<span>
+				Os alunos que desenvolveram este trabalho vem por meio deste aviso, comunicar a todos que forem avaliar ou consultar o presente projeto que, nenhum dos conteúdos presentes no trabalho como, vídeos, trailers, filmes, capas de séries e séries são de nossa autoria, e que nenhum destes conteúdos serão comercializados, ou divulgados por nós para fins lucrativos.<br>
+				A <span class="log-pro">ℙℝ𝕆𝕃𝕀𝕍𝔼</span> trata-se apenas de uma plataforma de streaming fictícia, desenvolvida para fins acadêmicos, com o intuito de representar grandes plataformas existentes no mercado real, e utilizando os próprios conteúdos delas como exemplo.<br>
+				Por se tratar de uma plataforma fictícia e com fins acadêmicos apenas, ela não tera lucro, e nenhum conteúdo será comecializado ou divulgado pois as plataformas como Netflix, Amazon, YouTube, WarnerBros, entre outras são detentoras dos direitos de divulgação, e os conteúdos delas foram utilizadas no nosso trabalho acadêmico, como homenagem a essas plataformas, visto que todos os integrantes do grupo são fãs dessas plataformas e acompanham séries e filmes por elas.<br>
+				Se você está acessando nosso trabalho e tem interesse em conhecer mais sobre as séries e filmes utilizadas como exemplo aqui no trabalho, você pode acessar clicando no nomes das plataformas REAIS donas do direito dos conteúdos, lá você terá o melhor das séries e filmes, acesse em:
+				<a href="https://www.netflix.com/br/">Netflix</a>, <a href="https://www.hbogo.com.br/landing">HBO</a>, <a href="https://globoplay.globo.com/">Globoplay</a>,<a href="https://www.primevideo.com/?_encoding=UTF8&language=pt_BR"> Amazon Prime Video</a>, <a href="https://www.warnerbros.com.br/">WarnerBros</a>, <a href="https://www.youtube.com">YouTube</a> e se divirta!!!<br>
+				Agora que você já conhece as melhores plataformas, e sabe que a <span class="log-pro">ℙℝ𝕆𝕃𝕀𝕍𝔼</span> é apenas uma plataforma fictícia para fins acadêmicos, venha conferir como ficou nosso trabalho da faculdade, é só clicar no botão abaixo e seja bem vindo.<br>
+			</span>
+			<form action="inicial.html">
+				<button class="grow_spin">CONFERIR</button>
+			</form>
+		</div>
+
+
+
+
+
+
+	<div class="container-quemsomos">
+		<div class="sub-quemsomos">
+			<div class="informacao1">
+				<span class="log-pro">ℙℝ𝕆𝕃𝕀𝕍𝔼</span>
+			</div>
+			<div class="informacao1">
+				<span class="des-qs" id="fundo-rod1"><span class="title-qs">Assista onde quiser!</span><br> <br>A prolive desenvolveu essa plataforma pensando em vários dispositivos, para que você assista de onde quiser, celular, tablet, notebook, smarTv entre outros!</span>
+			</div>
+		</div>
+		<div class="sub-quemsomos">
+			<div class="informacao1">
+				<span class="des-qs" id="fundo-rod"><span class="title-qs">QUEM SOMOS?</span><br> <br>A prolive é uma plataforma fictícia de filmes, criada apenas para fins acadêmicos, sem fins lucrativos e nem comercial, nenhum conteúdo é comercializado por nós, e nem de nossa autoria.</span>
+			</div>
+			<div class="informacao1">
+				<span class="des-qs">Em breve o Prolive App estará disponível para você aproveitar!</span>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-rodape">
+		<div class="sub-quemsomos">
+			<div class="informacao1">
+				<span class="log-pro">ℙℝ𝕆𝕃𝕀𝕍𝔼</span>
+			</div>
+			<div class="informacao1">
+				<span class="des-qs"><span class="title-qs">Desenvolvido para <br>fins acadêmicos</span><br>
+					<ul>
+						<li>Gabriel Régio</li>
+						<li>Guilherme França</li>
+						<li>Igor Ramos</li>
+						<li>Joao Chimite</li>
+						<li>Rafael Ribeiro</li>
+						<li>Willy V. Pardim</li>
+					</ul>
+
+				</span>
+			</div>
+		</div>
+		<div class="sub-quemsomos">
+			<div class="informacao1">
+				<span class="des-qs"><span class="title-qs">Aviso</span><br> <br>Conteúdos utilizados no trabalho são da Netflix, Globoplay, Amazon Prime Video, HBO entre outros, nada será comercializado, isso é apenas um trabalho acadêmico do curso de Analise e desevolv. de sistemas.</span>
+			</div>
+			<div class="informacao1">
+				<span class="des-qs"><span class="title-qs">Redes Sociais
+					<ul>
+						<li><a href="instagram.com" id="rs">Instagram</a></li>
+						<li><a href="twitter.com" id="rs">Twitter</a></li>
+						<li><a href="linkedin.com" id="rs">Linkedin</a></li>
+						<li><a href="facebook.com" id="rs">Facebook</a></li>
+						<li><a href="youtube.com" id="rs">Youtube</a></li>
+					</ul>
+				</span>
+			</div>
+		</div>
+		<div class="sub-quemsomos">
+			<div class="informacao1">
+				<span class="des-qs"><span class="title-qs">Importante!</span><br> <br>Alguns layouts são baseados nas plataformas, Netflix, Globoplay, Amazon Prime Video, NimoTv, HBO entre outros.</span>
+			</div>
+			<div class="informacao1">
+				<span class="des-qs"><span class="title-qs">Análise e Desenvolv. de Sistemas
+					<ul>
+						<li>Projeto Integrador</li>
+					</ul>
+				</span>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
